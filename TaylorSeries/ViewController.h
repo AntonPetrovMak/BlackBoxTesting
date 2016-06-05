@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *degreesTextField;
+@property (weak, nonatomic) IBOutlet UITextField *errorTextField;
+@property (weak, nonatomic) IBOutlet UILabel *answerLabel;
+- (IBAction)actionConsider:(id)sender;
+
 
 @end
 
